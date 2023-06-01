@@ -1,0 +1,14 @@
+// Ajustar la posición de los componentes de chat
+.rce-canvas {
+    margin-top: 100px; /* Cambiar la altura del margen superior según sea necesario */
+  }
+  
+  // Ajustar el tamaño de los componentes de chat
+  .rce-canvas {
+    height: 500px; /* Cambiar la altura según sea necesario */
+  }
+  
+  .rce-chat-input-container input {
+    height: 40px; /* Cambiar la altura según sea necesario */
+    font-size: 16px; /* Cambiar el tamaño de la fuente según sea necesario */
+  }
