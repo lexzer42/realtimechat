@@ -14,7 +14,7 @@ app.post("/authenticate", async (req, res) => {
     const response = await axios.put(
         'https://api.chatengine.io/users/',
         {username: username, secret: username, first_name: username},
-        {headers: {"private-key": "b4c2c959-427e-4b18-aa96-d66f78c278c5"}}
+        {headers: {"private-key": "agregar-private-key"}}
       );
 
     console.log('Response from ChatEngine API: ', response);
