@@ -1,4 +1,5 @@
 import Axios from 'axios';
+import React from 'react';
 const AuthPage = (props) => {
   const onSubmit = (e) => {
     e.preventDefault();
