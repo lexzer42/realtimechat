@@ -1,6 +1,13 @@
 Para el backend se utilizó nodemon para recargas automáticas y para el frontend se utilizó Vite para un desarrollo más rápido. La aplicación admite chat privado y en grupo, mensajes en tiempo real y autenticación de usuario con Firebase. Además, esta aplicación puede manejar hasta 30,000 usuarios gracias a su arquitectura escalable, lo que significa que puede abarcar hasta 100,000 usuarios.
 
-Para ejecutar la aplicación, clonar el repositorio, instalar los paquetes y ejecutar "npm start" en el directorio raíz. 
+Primero vamos a cambiar un codigo backend/package.json   agregamos  "start": "nodemon index.js"  y instalamos de esta forma en el directorio backend:
+cd backend/
+npm install
+
+Para correr nodemon utilizamos "npm run start"
+
+En otra terminal ctrl+shift+5 o split terminal entramos en cd FrontEnd/ y ejecutamos los siguientes comandos:
+npm install
 
 En este proyecto, se utilizó Chat Engine para administrar y conectar a los usuarios a través de diferentes chats. Puede encontrar más información sobre los usuarios y sus actividades en el siguiente enlace: https://chatengine.io
 
